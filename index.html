@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Presentacion -->
+    <section id="hero">
+        <h1>Hola, soy [Tu Nombre]</h1>
+        <p>Desarrollador Web Full Stack</p>
+        <a href="#projects" class="btn">Ver mis proyectos</a>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Soy un apasionado del desarrollo web con experiencia en tecnologías frontend y backend...</p>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="project-grid">
+            <!-- Ejemplo de Proyecto -->
+            <div class="project">
+                <img src="assets/images/proyecto1.jpg" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto...</p>
+                <a href="#" target="_blank">Ver Proyecto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Vue.js</li>
+            <li>Node.js, Express</li>
+            <li>Git, GitHub</li>
+        </ul>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
