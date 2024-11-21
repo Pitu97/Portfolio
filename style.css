@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
+    color: darkblue;
 }
 
 body {
     line-height: 1.6;
+    background-image: url('imagenes/fondoP.png'); 
+    background-size: cover;
 }
 
 header {
@@ -32,8 +35,7 @@ nav ul li a {
 }
 
 #hero {
-    background: url('assets/images/hero.jpg') no-repeat center center/cover;
-    height: 100vh;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,4 +61,13 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     width: 200px;
+}
+
+#perfil {
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+    border-radius: 75%;
+    border-style: solid;
+    border-color: black;
 }
