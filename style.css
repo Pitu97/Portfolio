@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Winky Sans', sans-serif;
+    font-optical-sizing: auto;
+    text-shadow: 4px 4px 4px #aaa;
     color: darkblue;
 }
 
 body {
     line-height: 1.6;
-    background-image: url('imagenes/fondoP.png'); 
+    background-image: url('imagenes/fondoP.svg'); 
     background-size: cover;
 }
 
