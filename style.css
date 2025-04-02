@@ -229,7 +229,7 @@ nav ul li a:hover {
     }
 
     nav ul li a {
-        font-size: 12.7px;
+        font-size: 12px;
         padding: 5px;
     }
 
@@ -242,13 +242,14 @@ nav ul li a:hover {
 
     #skills-img {
         margin-top: 50px;
-        margin-left: 5%;
+        margin-left:0;
         width: 100%;
     }
 
     #skills-img img {
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
+        margin-left: 5px;
         padding: 0;
     }
 
